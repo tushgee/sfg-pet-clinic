@@ -1,12 +1,12 @@
 package guru.springframework.sfgpetclinic.service.springdatajpa;
 
 import guru.springframework.sfgpetclinic.model.Owner;
+import guru.springframework.sfgpetclinic.repository.OwnerRepository;
+import guru.springframework.sfgpetclinic.repository.PetRepository;
+import guru.springframework.sfgpetclinic.repository.PetTypeRepository;
 import guru.springframework.sfgpetclinic.service.OwnerService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
-import repository.OwnerRepository;
-import repository.PetRepository;
-import repository.PetTypeRepository;
 
 import java.util.HashSet;
 import java.util.Set;

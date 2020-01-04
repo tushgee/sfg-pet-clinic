@@ -1,4 +1,4 @@
-package repository;
+package guru.springframework.sfgpetclinic.repository;
 
 import guru.springframework.sfgpetclinic.model.Pet;
 import org.springframework.data.repository.CrudRepository;
