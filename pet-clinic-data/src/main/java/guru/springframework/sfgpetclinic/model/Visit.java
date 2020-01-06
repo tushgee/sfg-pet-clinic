@@ -4,7 +4,8 @@ import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
-@Table(name = "vists")
+@Table(name = "visits")
+@Access(AccessType.FIELD)
 public class Visit extends BaseEntity {
 
     @Column(name = "date")

@@ -6,6 +6,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "owners")
+@Access(AccessType.FIELD)
 public class Owner extends Person {
 
     @Column(name = "address")

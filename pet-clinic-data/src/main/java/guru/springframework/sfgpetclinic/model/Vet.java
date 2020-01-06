@@ -6,6 +6,7 @@ import java.util.Set;
 
 @Entity
 @Table(name = "vets")
+@Access(AccessType.FIELD)
 public class Vet extends Person {
 
     @ManyToMany(fetch = FetchType.EAGER)
